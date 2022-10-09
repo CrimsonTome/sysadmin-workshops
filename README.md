@@ -5,6 +5,7 @@
 ## System requirements
 
 - Node.js
+- Pandoc
 
 ## Development
 

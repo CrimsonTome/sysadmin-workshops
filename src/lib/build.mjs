@@ -4,7 +4,7 @@ import nodePandoc from "node-pandoc"
 let src = "../raw-slides/slides.md";
 
 // Arguments can be either a single String or in an Array
-let args = "-f markdown -o output/slides.pptx";
+let args = "-f markdown -o output/slides.pdf";
 
 // Set your callback function
 const callback = (err, result)=> {

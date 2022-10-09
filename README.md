@@ -8,7 +8,7 @@
 
 ## Development
 
-- edit slides in `src/*.md`
+- edit slides in `src/raw-slides/*.md`
 
 ## Building
 

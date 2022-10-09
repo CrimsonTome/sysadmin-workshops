@@ -1,0 +1,24 @@
+{
+  "name": "sysadmin-workshops",
+  "version": "1.0.0",
+  "description": "> slides for workshops on teaching sysadmin skills to students at the University of Hull",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node src/lib/build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrimsonTome/sysadmin-workshops.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/CrimsonTome/sysadmin-workshops/issues"
+  },
+  "homepage": "https://github.com/CrimsonTome/sysadmin-workshops#readme",
+  "devDependencies": {
+    "node-pandoc": "^0.3.0"
+  }
+}

@@ -17,6 +17,10 @@
 
 - `npm run build`
 
+Or if you are in the repo root: 
+
+- `node .` 
+
 #### Successful build
 ```
 > sysadmin-workshops@1.0.0 build

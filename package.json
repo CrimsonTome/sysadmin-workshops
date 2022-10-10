@@ -2,7 +2,7 @@
   "name": "sysadmin-workshops",
   "version": "1.0.0",
   "description": "> slides for workshops on teaching sysadmin skills to students at the University of Hull",
-  "main": "index.js",
+  "main": "src/lib/build.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node src/lib/build.mjs"

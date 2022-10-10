@@ -16,8 +16,8 @@
 ### Node
 
 - `npm run build`
-If you get something like this in your output, the build was most likely a success. Else something went wrong and it should say the error e.g. `Oh Nos:  Error: ../../output/slides.pptx: openBinaryFile: does not exist (No such file or directory)`.
 
+#### Successful build
 ```
 > sysadmin-workshops@1.0.0 build
 > node src/lib/build.mjs
@@ -25,6 +25,12 @@ If you get something like this in your output, the build was most likely a succe
 true
 ```
 
+#### Unsuccessful build
+```
+... 
+Oh Nos:  Error: ../../output/slides.pptx: openBinaryFile: does not exist (No such file or directory)
+...
+```
 
 ## License
 

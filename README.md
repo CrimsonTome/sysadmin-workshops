@@ -36,6 +36,11 @@ Oh Nos:  Error: ../../output/slides.pptx: openBinaryFile: does not exist (No suc
 ...
 ```
 
+#### Note for building
+
+- If you get a successful build and the output slides do no update properly then the following command should work properly:
+  - `pandoc src/raw-slides/slides.md -o output/slides.pdf`
+
 ## License
 
 sysadmin-workshops is licensed under the Apache 2.0 license. The full license text is included in the [LICENSE](LICENSE.md) file in this repository. Tldr legal have a [great summary](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)) of the license if you're interested.

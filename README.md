@@ -4,8 +4,8 @@
 
 ## System requirements
 
-- Node.js
-- Pandoc
+- [Node.js](https://nodejs.org/en/)
+- [Pandoc](https://github.com/jgm/pandoc)
 
 ## Development
 

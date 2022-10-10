@@ -16,6 +16,8 @@
 ### Node
 
 - `npm run build`
+or
+- `npm run buildshell`
 
 Or if you are in the repo root: 
 
@@ -40,6 +42,8 @@ Oh Nos:  Error: ../../output/slides.pptx: openBinaryFile: does not exist (No suc
 
 - If you get a successful build and the output slides do no update properly then the following command should work properly:
   - `pandoc src/raw-slides/slides.md -o output/slides.pdf`
+
+Note that the above is equivalent to what is ran by calling `npm run buildshell`
 
 ## License
 

@@ -24,3 +24,5 @@ This can be worrying for some, but hopefully through these workshops you will be
     - Click on Root Account and tick either disable or enable, doesn't matter which. Note that if you wish to SSH as root later, you will have to set this up manually.
     - Click Create User and fill in the details, ticking make this user administrator. There is no need to do any advanced options.
 - Once you are ready, click on Begin Installation. Depdending on the specs of the VM and your network, this could take a while so be patient.
+- Reboot the VM.
+- Once the VM has booted, login with the username and password you set during the installation process to verify the install has worked

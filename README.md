@@ -47,4 +47,4 @@ Note that the above is equivalent to what is ran by calling `npm run buildshell`
 
 ## License
 
-sysadmin-workshops is licensed under the Apache 2.0 license. The full license text is included in the [LICENSE](LICENSE.md) file in this repository. Tldr legal have a [great summary](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)) of the license if you're interested.
+sysadmin-workshops is licensed under the Apache 2.0 license. The full license text is included in the [LICENSE](LICENSE) file in this repository. Tldr legal have a [great summary](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)) of the license if you're interested.

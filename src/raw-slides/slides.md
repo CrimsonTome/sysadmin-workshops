@@ -43,6 +43,7 @@ If the above commands looked confusing, let's go through what each one does. Fir
 - If the service is not running, `openssh-server` might not be installed. Install it with `sudo dnf install openssh-server`.
 - Once installed or if it says it is already installed, run `sudo systemctl enable sshd && sudo systemctl start sshd && sudo systemctl status sshd`.
     - This will enable the SSH service, start it and then check it is running properly. (`&&` is used to run commands sequentially once the previous command is successful)
+    - On your host machine, open up a terminal and run `ssh username@ip-address`. You can get the VMs IP address by running `ip a` and finding `inet` under something like `enp1s0`
 
 \pagebreak
 

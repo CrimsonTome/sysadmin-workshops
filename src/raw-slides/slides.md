@@ -1,9 +1,9 @@
 # Sysadmin Workshop Slides
 
 A series of workshops by CrimsonTome
-Website: [crimsontome.com](https://crimsontome.com)
-Github: [CrimsonTome](https://github.com/crimsontome)
-Discord: CrimsonTome427#7459
+Website: [crimsontome.com](https://crimsontome.com) \newline
+Github: [CrimsonTome](https://github.com/crimsontome)\newline
+Discord: CrimsonTome427#7459\newline
 Email: <crimsontome427@protonmail.com>
 
 \pagebreak
@@ -21,8 +21,8 @@ This can be worrying for some, but hopefully through these workshops you will be
   - System
     - Click on Installation Destination then click done, there is no need to do manual partitioning in this case.
   -  User Settings
-    - Click on Root Account and tick either disable or enable, doesn't matter which. Note that if you wish to SSH as root later, you will have to set this up manually.
-    - Click Create User and fill in the details, ticking make this user administrator. There is no need to do any advanced options.
+     - Click on Root Account and tick either disable or enable, doesn't matter which. Note that if you wish to SSH as root later, you will have to set this up manually.
+     - Click Create User and fill in the details, ticking make this user administrator. There is no need to do any advanced options.
 - Once you are ready, click on Begin Installation. Depdending on the specs of the VM and your network, this could take a while so be patient.
 - Reboot the VM.
 - Once the VM has booted, login with the username and password you set during the installation process to verify the install has worked
@@ -34,11 +34,11 @@ This can be worrying for some, but hopefully through these workshops you will be
 
 - To check that the SSH server is running, run `sudo systemctl status sshd`
 
-If the above commands looked confusing, let's go through what each one does. Firstly `sudo systemctl status sshd`:
-- `sudo` allows us to run commands as another user, in this case `root` - the superuser, equivalent of an Administrator account on Windows
-- `systemctl` is used to control the systemd system and service manager. Systemd is a very common init system and its primary purpose is initializing, managing and tracking system services and daemons in the OS (in this case Fedora), both during startup and while the system is running.
-    - `status` is used to view the status of a service
-- `sshd` is the Secure Shell Daemon, SSH allows machines to securely connect to each other
+If the above commands looked confusing, let's go through what each one does. Firstly `sudo systemctl status sshd`:\newline
+- `sudo` allows us to run commands as another user, in this case `root` - the superuser, equivalent of an Administrator account on Windows\newline
+- `systemctl` is used to control the systemd system and service manager. Systemd is a very common init system and its primary purpose is initializing, managing and tracking system services and daemons in the OS (in this case Fedora), both during startup and while the system is running.\newline
+- `status` is used to view the status of a service\newline
+- `sshd` is the Secure Shell Daemon, SSH allows machines to securely connect to each other\newline
  \pagebreak
 
  # References

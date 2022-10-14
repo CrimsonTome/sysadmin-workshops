@@ -32,12 +32,13 @@ This can be worrying for some, but hopefully through these workshops you will be
 
 # Setting up SSH server
 
-- To check that the SSH server is running, run `sudo systemctl status sshd` or to check for all ports that are listening `sudo netstat -peanut |grep -i listen`
+- To check that the SSH server is running, run `sudo systemctl status sshd`
 
 If the above commands looked confusing, let's go through what each one does. Firstly `sudo systemctl status sshd`:
- - `sudo` allows us to run commands as another user, in this case `root` - the superuser, equivalent of an Administrator account on Windows
- - `systemctl` is used to control the systemd system and service manager. Systemd is a very common init system and its primary purpose is initializing, managing and tracking system services and daemons in the OS (in this case Fedora), both during startup and while the system is running.
-
+- `sudo` allows us to run commands as another user, in this case `root` - the superuser, equivalent of an Administrator account on Windows
+- `systemctl` is used to control the systemd system and service manager. Systemd is a very common init system and its primary purpose is initializing, managing and tracking system services and daemons in the OS (in this case Fedora), both during startup and while the system is running.
+    - `status` is used to view the status of a service
+- `sshd` is the Secure Shell Daemon, SSH allows machines to securely connect to each other
  \pagebreak
 
  # References

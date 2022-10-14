@@ -32,14 +32,19 @@ This can be worrying for some, but hopefully through these workshops you will be
 
 # Setting up SSH server
 
-- To check that the SSH server is running, run `sudo systemctl status sshd`
+- To check that the SSH server is running, run `sudo systemctl status sshd`\newline
 
 If the above commands looked confusing, let's go through what each one does. Firstly `sudo systemctl status sshd`:\newline
 - `sudo` allows us to run commands as another user, in this case `root` - the superuser, equivalent of an Administrator account on Windows\newline
 - `systemctl` is used to control the systemd system and service manager. Systemd is a very common init system and its primary purpose is initializing, managing and tracking system services and daemons in the OS (in this case Fedora), both during startup and while the system is running.\newline
 - `status` is used to view the status of a service\newline
 - `sshd` is the Secure Shell Daemon, SSH allows machines to securely connect to each other\newline
- \pagebreak
+
+- If the service is not running, `openssh-server` might not be installed. Install it with `sudo dnf install openssh-server`.
+- Once installed or if it says it is already installed, run `sudo systemctl enable sshd && sudo systemctl start sshd && sudo systemctl status sshd`.
+    - This will enable the SSH service, start it and then check it is running properly. (`&&` is used to run commands sequentially once the previous command is successful)
+
+\pagebreak
 
  # References
 

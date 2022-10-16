@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node src/lib/build.mjs",
-    "buildshell": "./src/lib/build.sh",
-    "dev": "wf src/raw-slides/slides.md src/lib/build.sh"
+    "buildshell": "./src/lib/build.sh"
   },
   "repository": {
     "type": "git",
